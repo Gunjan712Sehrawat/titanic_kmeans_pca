@@ -39,7 +39,7 @@ this project instead explores **unsupervised learning** to find natural grouping
 ## 📊 Results
 Here’s the **KMeans clustering result** (PCA projection to 2D):
 
-![KMeans PCA Clusters](kmeans_pca_k3.png)
+![KMeans PCA Clusters] (Screenshot 2025-08-12 182839.png)
 
 Clusters were formed based on passenger attributes, showing distinct separation patterns that might correspond to ticket class, gender, and other socio-economic factors.
 
@@ -48,12 +48,12 @@ Clusters were formed based on passenger attributes, showing distinct separation 
 ## 📂 Files in This Repository
 - `titanic_kmeans_pca.ipynb` — Main Jupyter/Colab notebook
 - `requirements.txt` — Python dependencies
-- `kmeans_pca_k3.png` — PCA visualization of clusters
+- `Screenshot 2025-08-12 182839.png` — PCA visualization of clusters
 - `RESULTS.md` — Chosen `k` value and basic metrics
 - `kmeans_model.joblib` — Saved KMeans model
 - `preprocessor.joblib` — Data preprocessing pipeline
 - `pca_2d.joblib` — PCA transformation object
-- `.gitignore` — Files/folders to ignore in Git
+
 
 ---
 
